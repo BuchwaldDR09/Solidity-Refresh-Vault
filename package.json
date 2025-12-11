@@ -1,0 +1,37 @@
+{
+  "name": "solidity-refresh-vault",
+  "version": "1.0.0",
+  "description": "A refresh project to re-enter Solidity development and demonstrate competence in smart contract programming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuchwaldDR09/Solidity-Refresh-Vault.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuchwaldDR09/Solidity-Refresh-Vault/issues"
+  },
+  "homepage": "https://github.com/BuchwaldDR09/Solidity-Refresh-Vault#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.3",
+    "@nomicfoundation/hardhat-mocha": "^3.0.8",
+    "@nomicfoundation/hardhat-viem": "^3.0.1",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.19.2",
+    "chai": "^6.2.1",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.1.0",
+    "typescript": "~5.8.0",
+    "viem": "^2.41.2"
+  },
+  "type": "module",
+  "directories": {
+    "test": "test"
+  }
+}
